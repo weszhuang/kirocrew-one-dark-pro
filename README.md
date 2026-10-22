@@ -6,17 +6,31 @@ variant uses Atom's One Light palette.
 
 ## Install
 
-1. Clone this repository on the host where the Kiro Crew gateway runs.
-2. In the dashboard, open the theme settings, choose **Install Theme**, and
-   enter the path to the `one-dark-pro` folder.
+### From GitHub (recommended)
+
+1. In the Kiro Crew dashboard, open the theme settings and choose
+   **Install Theme**.
+2. Choose the GitHub source and enter:
+
+   ```
+   https://github.com/weszhuang/kirocrew-one-dark-pro
+   ```
+
 3. Select **One Dark Pro** in the theme picker.
 
-The gateway copies the pack into `~/.kiro/crew/themes/`, so it survives
-upgrades and restarts. No restart is needed.
+The gateway clones the repository, validates it, and copies the pack into
+`~/.kiro/crew/themes/`, so it survives upgrades and restarts. No restart is
+needed.
+
+### From a local folder
+
+If the gateway host cannot reach GitHub, clone this repository on that host,
+then choose **Install Theme** with the local-folder source and enter the path
+to the cloned repository root.
 
 ## What it sets
 
-`one-dark-pro/variables.json` sets 52 dark-mode and 22 light-mode CSS
+`variables.json` sets 52 dark-mode and 22 light-mode CSS
 variables from the dashboard's allowed list: surfaces, borders, accent,
 status colors, JSON highlighting, diffs and terminal colors. The dashboard
 derives any variable left out from `--bg` and `--text`.
