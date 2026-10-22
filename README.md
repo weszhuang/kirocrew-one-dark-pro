@@ -8,15 +8,16 @@ variant uses Atom's One Light palette.
 
 ### From GitHub (recommended)
 
-1. In the Kiro Crew dashboard, open the theme settings and choose
-   **Install Theme**.
-2. Choose the GitHub source and enter:
+1. In the Kiro Crew dashboard, open **Settings → Display → Theme** and
+   choose **Install Theme**.
+2. Set **Theme source** to **GitHub** and enter:
 
    ```
    https://github.com/weszhuang/kirocrew-one-dark-pro
    ```
 
-3. Select **One Dark Pro** in the theme picker.
+3. In the same **Theme** section, select **⚛️ One Dark Pro** and set the
+   mode to dark.
 
 The gateway clones the repository, validates it, and copies the pack into
 `~/.kiro/crew/themes/`, so it survives upgrades and restarts. No restart is
@@ -25,8 +26,8 @@ needed.
 ### From a local folder
 
 If the gateway host cannot reach GitHub, clone this repository on that host,
-then choose **Install Theme** with the local-folder source and enter the path
-to the cloned repository root.
+then in **Settings → Display → Theme → Install Theme** set **Theme source** to
+**Local folder** and enter the path to the cloned repository root.
 
 ## What it sets
 
