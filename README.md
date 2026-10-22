@@ -35,6 +35,11 @@ variables from the dashboard's allowed list: surfaces, borders, accent,
 status colors, JSON highlighting, diffs and terminal colors. The dashboard
 derives any variable left out from `--bg` and `--text`.
 
+`styles/overrides.css` recolors added, removed and modified lines in the
+dashboard's code viewer (diffs and code review panels) to the One Dark Pro
+green, red and yellow. Syntax highlighting inside the code viewer still uses
+its built-in color scheme, which a theme pack cannot change.
+
 | Role | Color |
 | --- | --- |
 | Background | `#282c34` |

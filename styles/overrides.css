@@ -1,0 +1,10 @@
+/* Recolor the code viewer's added, removed and modified lines.
+   Syntax token colors still come from the viewer's built-in scheme. */
+body {
+  --diffs-dark-addition-color: #98c379;
+  --diffs-dark-deletion-color: #e06c75;
+  --diffs-dark-modified-color: #e5c07b;
+  --diffs-light-addition-color: #50a14f;
+  --diffs-light-deletion-color: #e45649;
+  --diffs-light-modified-color: #b76b01;
+}
