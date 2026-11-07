@@ -3,5 +3,9 @@
   "name": "One Dark Pro",
   "emoji": "⚛️",
   "level": 1,
-  "formatVersion": 1
+  "formatVersion": 1,
+  "codeTheme": {
+    "dark": "one-dark-pro",
+    "light": "one-light"
+  }
 }

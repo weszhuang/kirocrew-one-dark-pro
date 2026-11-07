@@ -38,8 +38,13 @@ derives any variable left out from `--bg` and `--text`.
 
 `styles/overrides.css` recolors added, removed and modified lines in the
 dashboard's code viewer (diffs and code review panels) to the One Dark Pro
-green, red and yellow. Syntax highlighting inside the code viewer still uses
-its built-in color scheme, which a theme pack cannot change.
+green, red and yellow.
+
+`theme.json` also sets `codeTheme`, so syntax highlighting in code blocks,
+diffs and file views uses the `one-dark-pro` scheme in dark mode and
+`one-light` in light mode. This needs a Kiro Crew release that includes
+[#24944](https://github.com/kirodotdev/KiroCrew/issues/24944). Older releases
+ignore the field and keep their built-in code scheme.
 
 | Role | Color |
 | --- | --- |
